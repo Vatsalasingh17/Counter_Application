@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d57d7d;
+}
+
+.counter-container {
+    display:flex;
+    flex-direction: column;
+    
+    text-align: center;
+    background-color: #f8f7a8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.counter-controls button {
+    
+    font-size: 1.5rem;
+    
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment {
+    background-color: #4CAF50;
+    height:40px;
+    width:40px;
+    text-align: center;
+    color: white;
+}
+
+#decrement {
+    background-color: #f44336;
+    height:40px;
+    width:40px;
+    color: white;
+}
+
+#increment:hover, #decrement:hover , #reset:hover {
+    opacity: 0.8;
+}
+
+#reset {
+    background-color: #2196F3;
+    padding:10px 20px;;
+
+    color: white;
+    font-size: 20px;
+    font-style:inherit;
+}
+
+.heading
+{
+    font-size:20px;
+}
